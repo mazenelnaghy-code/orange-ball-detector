@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code
+.claude/
+
+# YOLO training/prediction output
+runs/
+*.cache
+
+# Generated detections (re-creatable with src/detect_image.py)
+examples/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
